@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignWithParentIfMissing="false"
+    android:background="@drawable/welcome2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="211dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/applogo" />
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="RestAndStore... Whatever You Want."
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-35dp"
+        android:layout_below="@+id/app_logo"
+        android:textAlignment="center"
+        android:textColor="#EDEBEB"
+        android:textSize="24dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/main_join_btn"
+        android:background="@drawable/buttons"
+        android:text="Already have an Account ? Login"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/main_join_btn"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/app_slogan"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Join Now"
+        android:background="@drawable/input_design"
+        android:layout_marginTop="90dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

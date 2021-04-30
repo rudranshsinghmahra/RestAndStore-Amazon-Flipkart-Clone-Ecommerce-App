@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "237558541612",
+    "project_id": "weguide-c70ec",
+    "storage_bucket": "weguide-c70ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237558541612:android:a514ccdd6a8f1322ea5089",
+        "android_client_info": {
+          "package_name": "com.rudransh.weguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237558541612-e4aum4d7uvda1m360lv13cmdlooo9152.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rudransh.weguide",
+            "certificate_hash": "6353eb247a717f37f9d2e783088890a0b8a9732f"
+          }
+        },
+        {
+          "client_id": "237558541612-kfaaeo605ohg5ojlc05unah4009n7342.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYF3w-WIxsPKQH6QaYEip3CsVCyAlWAJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237558541612-kfaaeo605ohg5ojlc05unah4009n7342.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
